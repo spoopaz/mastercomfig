@@ -1,6 +1,23 @@
 # package files
 *.vpk
 
+# build files
+build/
+
+# editors
+venv/
+.idea
+.vscode
+
+# node
+node_modules/
+dist/
+*.log
+!app/build/
+
+# mkdocs
+site/
+
 # dev script generated packages
 dev/addons/mastercomfig*
 dev/presets/mastercomfig*
@@ -15,11 +32,3 @@ dev/mastercomfig*
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-.idea/
-app/
-build/
-venv/
-
-# mkdocs
-site/
